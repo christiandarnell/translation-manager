@@ -22,12 +22,12 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"christiandarnell\\TranslationManager\\": "src/"
+			"ChristianDarnell\\TranslationManager\\": "src/"
 		}
 	},
 	"autoload-dev": {
 		"psr-4": {
-			"christiandarnell\\TranslationManager\\Tests\\": "tests/"
+			"ChristianDarnell\\TranslationManager\\Tests\\": "tests/"
 		}
 	},
 	"config": {
@@ -38,7 +38,7 @@
 	"extra": {
 		"laravel": {
 			"providers": [
-				"christiandarnell\\TranslationManager\\TranslationManagerServiceProvider"
+				"ChristianDarnell\\TranslationManager\\TranslationManagerServiceProvider"
 			]
 		}
 	}

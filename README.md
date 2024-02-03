@@ -1,8 +1,5 @@
 # Translation Manager
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/atstudio-tech/translation-manager.svg?style=flat-square)](https://packagist.org/packages/atstudio-tech/translation-manager)
-[![Total Downloads](https://img.shields.io/packagist/dt/atstudio-tech/translation-manager.svg?style=flat-square)](https://packagist.org/packages/atstudio-tech/translation-manager)
-
 GUI for scanning and managing your Laravel translations.
 
 <img width="1206" alt="Preview" src="https://user-images.githubusercontent.com/7644596/161340228-ae6f73fd-35fc-4ce4-b14c-722a9efb0c93.png">
