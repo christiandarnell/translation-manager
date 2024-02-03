@@ -1,15 +1,15 @@
 <?php
 
-namespace ATStudio\TranslationManager\Tests;
+namespace ChristianDarnell\TranslationManager\Tests;
 
 use ATStudio\TranslationManager\TranslationManagerServiceProvider;
 
 class TestCase extends \Orchestra\Testbench\TestCase
 {
-    protected function getPackageProviders($app)
-    {
-        return [
-            TranslationManagerServiceProvider::class,
-        ];
-    }
+	protected function getPackageProviders($app)
+	{
+		return [
+			TranslationManagerServiceProvider::class,
+		];
+	}
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace ATStudio\TranslationManager;
+namespace ChristianDarnell\TranslationManager;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\File;
