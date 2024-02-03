@@ -38,10 +38,14 @@ class ManagerController
 		if ($request->query('tab') === 'missing') {
 			$translations = $this->allTranslations()->merge($translations);
 		}
-
+		foreach ($translations as $key => $translation) {
+			if (is_null($translation)) {
+				$translations[$key] = '';
+			}
+		}
 		File::put(
 			$this->langFile($request->query('lang')),
-			json_encode(collect($translations)->toArray(), JSON_UNESCAPED_UNICODE),
+			json_encode(collect($translations)->toArray(), JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES),
 		);
 	}
 
