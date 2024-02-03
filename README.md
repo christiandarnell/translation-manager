@@ -12,7 +12,7 @@ GUI for scanning and managing your Laravel translations.
 Install this package by running the following commands in your terminal:
 
 ```shell
-composer require atstudio-tech/translation-manager
+composer require christiandarnell/translation-manager
 php artisan vendor:publish --tag="tm-assets"
 ```
 

@@ -2,7 +2,7 @@
 
 namespace ChristianDarnell\TranslationManager;
 
-use ATStudio\TranslationManager\Commands\ScanFiles;
+use ChristianDarnell\TranslationManager\Commands\ScanFiles;
 use Illuminate\Support\ServiceProvider;
 
 class TranslationManagerServiceProvider extends ServiceProvider

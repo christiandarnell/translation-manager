@@ -2,7 +2,7 @@
 
 namespace ChristianDarnell\TranslationManager\Controllers;
 
-use ATStudio\TranslationManager\TranslationManager;
+use ChristianDarnell\TranslationManager\TranslationManager;
 use Illuminate\Http\Request;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\File;

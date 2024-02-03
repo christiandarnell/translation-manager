@@ -2,7 +2,7 @@
 
 namespace ChristianDarnell\TranslationManager\Tests;
 
-use ATStudio\TranslationManager\TranslationManagerServiceProvider;
+use ChristianDarnell\TranslationManager\TranslationManagerServiceProvider;
 
 class TestCase extends \Orchestra\Testbench\TestCase
 {
